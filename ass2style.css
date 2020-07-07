@@ -1,0 +1,141 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@media screen and (max-width:320px) {}
+
+@media screen and (min-width:320px) and (max-width:640px) {}
+
+#somethingorother {
+    width: 800px;
+}
+
+@media screen and (max-width: 320px) {
+    #somethingorother {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    #somethingorother {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    #somethingorother {
+        width: 480px;
+    }
+}
+
+@media screen and (orientation:portrait) {}
+
+@media screen and (orientation: landscape) {}
+
+.card {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: ghostwhite;
+}
+
+.logo {
+    height: 25px;
+    margin: 25px;
+}
+
+.ab {
+    position: absolute;
+    margin-top: 4%;
+    height: 85%;
+    width: 50%;
+}
+
+.loginform {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+    margin-left: auto;
+}
+
+.button {
+    background-color: white;
+    border: transparent;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+}
+
+.button:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.wlc {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.p1 {
+    color: grey;
+    font-size: 18px;
+}
+
+.pp {
+    color: grey;
+    font-size: 13.5px;
+}
+
+.textbox {
+    position: relative;
+    left: 40px;
+    padding: 35px;
+    transform: translate(-10%, -10%);
+    width: 400px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+}
+
+.textbox input {
+    position: absolute;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.lab {
+    top: 20px;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 30px;
+    color: grey;
+}
+
+.textbox .eplogo {
+    position: absolute;
+    height: 20px;
+    margin-left: -25px;
+    margin-top: -12px;
+}
+
+.butt {
+    margin-top: -10px;
+    border-radius: 100%;
+}
